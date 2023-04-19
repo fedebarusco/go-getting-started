@@ -14,6 +14,8 @@ import (
 	"go-getting-started/forloop"
 
 	"go-getting-started/ifelse"
+
+	"go-getting-started/switch_statement"
 )
 
 func main() {
@@ -23,4 +25,5 @@ func main() {
 	constants.PrintConstants()
 	forloop.PrintValues()
 	ifelse.PrintValues()
+	switch_statement.PrintValues()
 }
