@@ -16,6 +16,10 @@ import (
 	"go-getting-started/ifelse"
 
 	"go-getting-started/switch_statement"
+
+	"go-getting-started/arrays"
+
+	"go-getting-started/slices"
 )
 
 func main() {
@@ -26,4 +30,6 @@ func main() {
 	forloop.PrintValues()
 	ifelse.PrintValues()
 	switch_statement.PrintValues()
+	arrays.PrintValues()
+	slices.PrintValues()
 }
