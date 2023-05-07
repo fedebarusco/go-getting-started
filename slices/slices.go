@@ -25,18 +25,25 @@ func PrintValues() {
 	copy(c, s)
 	fmt.Println("cpy:", c)
 
+	// Slices support a "slice" operator
+	// The following example gets a slice of the elements s[2], s[3], s[4]
 	l := s[2:5]
 	fmt.Println("sl1:", l)
 
+	// Gets a slice up to (but excluding) s[5]
 	l = s[:5]
 	fmt.Println("sl2:", l)
 
+	// Gets a slice up from (but including) s[2]
 	l = s[2:]
 	fmt.Println("sl3:", l)
 
+	// Declare and initialize a variable for slice in a single line
 	t := []string{"g", "h", "i"}
 	fmt.Println("dcl:", t)
 
+	// Slices can be composed into multi-dimensional data structures
+	// The length of the inner slices can vary
 	twoD := make([][]int, 3)
 	for i := 0; i < 3; i++ {
 		innerLen := i + 1

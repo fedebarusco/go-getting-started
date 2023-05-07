@@ -2,24 +2,17 @@ package main
 
 import (
 	"fmt"
-
-	"rsc.io/quote"
-
+	"go-getting-started/arrays"
+	"go-getting-started/constants"
+	"go-getting-started/forloop"
+	"go-getting-started/ifelse"
+	"go-getting-started/maps"
+	"go-getting-started/slices"
+	"go-getting-started/switch_statement"
 	"go-getting-started/values"
-
 	"go-getting-started/variables"
 
-	"go-getting-started/constants"
-
-	"go-getting-started/forloop"
-
-	"go-getting-started/ifelse"
-
-	"go-getting-started/switch_statement"
-
-	"go-getting-started/arrays"
-
-	"go-getting-started/slices"
+	"rsc.io/quote"
 )
 
 func main() {
@@ -32,4 +25,5 @@ func main() {
 	switch_statement.PrintValues()
 	arrays.PrintValues()
 	slices.PrintValues()
+	maps.PrintValues()
 }
