@@ -7,6 +7,7 @@ import (
 	"go-getting-started/forloop"
 	"go-getting-started/ifelse"
 	"go-getting-started/maps"
+	"go-getting-started/ranges"
 	"go-getting-started/slices"
 	"go-getting-started/switch_statement"
 	"go-getting-started/values"
@@ -26,4 +27,5 @@ func main() {
 	arrays.PrintValues()
 	slices.PrintValues()
 	maps.PrintValues()
+	ranges.PrintValues()
 }
